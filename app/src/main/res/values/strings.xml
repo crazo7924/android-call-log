@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Incoming Logger</string>
+    <string name="perm_rationale">Please grant access for managing calls</string>
+</resources>
