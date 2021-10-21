@@ -1,8 +1,8 @@
 plugins {
     id("com.android.application")
-    id("com.google.devtools.ksp") version "1.5.31-1.0.0"
     id("com.github.sherter.google-java-format") version "0.9"
     kotlin("android")
+    kotlin("kapt")
 }
 
 android {
@@ -56,7 +56,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.6.0")
     implementation("androidx.fragment:fragment-ktx:1.3.6")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
-    ksp("androidx.room:room-compiler:2.3.0")
+    kapt("androidx.room:room-compiler:2.3.0")
 
     implementation("pub.devrel:easypermissions:3.0.0")
 
