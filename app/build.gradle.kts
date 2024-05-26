@@ -7,6 +7,7 @@ plugins {
 
 android {
     compileSdkVersion(34)
+    namespace = "com.example.task.incoming"
 
     defaultConfig {
         applicationId = "com.example.task.incoming"
