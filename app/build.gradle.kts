@@ -52,7 +52,7 @@ dependencies {
 
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.recyclerview:recyclerview:1.2.1")
-    implementation("androidx.appcompat:appcompat:1.3.1")
+    implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.room:room-runtime:2.3.0")
     implementation("androidx.core:core-ktx:1.6.0")
     implementation("androidx.fragment:fragment-ktx:1.3.6")
