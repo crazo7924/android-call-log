@@ -47,7 +47,7 @@ android {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.0")
 
     implementation("androidx.constraintlayout:constraintlayout:2.0.4")
     implementation("androidx.recyclerview:recyclerview:1.2.1")
