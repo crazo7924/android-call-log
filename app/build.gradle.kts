@@ -6,12 +6,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion(31)
+    compileSdkVersion(34)
 
     defaultConfig {
         applicationId = "com.example.task.incoming"
-        minSdkVersion(23)
-        targetSdkVersion(31)
+        minSdkVersion(24)
+        targetSdkVersion(34)
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -43,7 +43,7 @@ android {
         jvmTarget = JavaVersion.VERSION_11.toString()
     }
 
-    buildToolsVersion = "31.0.0"
+    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
