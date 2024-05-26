@@ -49,7 +49,7 @@ android {
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.0")
 
-    implementation("androidx.constraintlayout:constraintlayout:2.0.4")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.recyclerview:recyclerview:1.2.1")
     implementation("androidx.appcompat:appcompat:1.3.1")
     implementation("androidx.room:room-runtime:2.3.0")
