@@ -1,6 +1,5 @@
 plugins {
     id("com.android.application")
-    id("com.github.sherter.google-java-format") version "0.9"
     kotlin("android")
     kotlin("kapt")
 }
@@ -48,16 +47,16 @@ android {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.0")
 
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.recyclerview:recyclerview:1.2.1")
-    implementation("androidx.appcompat:appcompat:1.3.1")
-    implementation("androidx.room:room-runtime:2.3.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.room:room-runtime:2.6.1")
     implementation("androidx.core:core-ktx:1.6.0")
-    implementation("androidx.fragment:fragment-ktx:1.3.6")
+    implementation("androidx.fragment:fragment-ktx:1.7.1")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
-    kapt("androidx.room:room-compiler:2.3.0")
+    kapt("androidx.room:room-compiler:2.6.1")
 
     implementation("pub.devrel:easypermissions:3.0.0")
 
