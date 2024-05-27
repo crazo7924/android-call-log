@@ -1,0 +1,22 @@
+name: Main
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build APK
+        run: |
+          bash gradlew :app:assembleRelease
+          
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "build/outputs/apk/app-release.apk"
