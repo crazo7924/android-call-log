@@ -56,7 +56,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.6.0")
     implementation("androidx.fragment:fragment-ktx:1.7.1")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
-    kapt("androidx.room:room-compiler:2.3.0")
+    kapt("androidx.room:room-compiler:2.6.1")
 
     implementation("pub.devrel:easypermissions:3.0.0")
 
