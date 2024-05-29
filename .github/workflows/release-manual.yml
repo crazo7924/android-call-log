@@ -27,4 +27,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.VERSION }}
-          files: app/build/outputs/apk/release
+          files: android-call-log/app/build/outputs/apk/release/*
