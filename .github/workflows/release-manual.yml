@@ -19,7 +19,7 @@ jobs:
 
       - name: Build APK
         run: |
-          bash gradlew :app:assembleRelease
+          bash gradlew :app:assembleDebug
           VERSION="$(git rev-parse --short HEAD)"
           echo VERSION="${VERSION}" >> $GITHUB_ENV
           
@@ -27,4 +27,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.VERSION }}
-          files: /home/runner/work/android-call-log/android-call-log/app/build/outputs/apk/release/*.apk*
+          files: /home/runner/work/android-call-log/android-call-log/app/build/outputs/apk/**/*.apk*
